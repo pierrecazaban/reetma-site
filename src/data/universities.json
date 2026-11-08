@@ -1,0 +1,2432 @@
+[
+  {
+    "id": "433f6b8f",
+    "name": "American University",
+    "short_name": "American",
+    "state": "DC",
+    "email_domains": [
+      "american.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "ce342e34",
+    "name": "Arizona State University",
+    "short_name": "ASU",
+    "state": "AZ",
+    "email_domains": [
+      "asu.edu"
+    ],
+    "timezone": "America/Phoenix"
+  },
+  {
+    "id": "9396d827",
+    "name": "Auburn University",
+    "short_name": "Auburn",
+    "state": "AL",
+    "email_domains": [
+      "auburn.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "108bcae7",
+    "name": "Baruch College, CUNY",
+    "short_name": "Baruch",
+    "state": "NY",
+    "email_domains": [
+      "baruch.cuny.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "0220f68e",
+    "name": "Baylor University",
+    "short_name": "Baylor",
+    "state": "TX",
+    "email_domains": [
+      "baylor.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "63879684",
+    "name": "Binghamton University",
+    "short_name": "Binghamton",
+    "state": "NY",
+    "email_domains": [
+      "binghamton.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "33f7d3bb",
+    "name": "Boise State University",
+    "short_name": "Boise State",
+    "state": "ID",
+    "email_domains": [
+      "boisestate.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "05810ce9",
+    "name": "Boston College",
+    "short_name": "BC",
+    "state": "MA",
+    "email_domains": [
+      "bc.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a6e1eeed",
+    "name": "Boston University",
+    "short_name": "BU",
+    "state": "MA",
+    "email_domains": [
+      "bu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "378b43a6",
+    "name": "Brandeis University",
+    "short_name": "Brandeis",
+    "state": "MA",
+    "email_domains": [
+      "brandeis.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "d69f7d97",
+    "name": "Brigham Young University",
+    "short_name": "BYU",
+    "state": "UT",
+    "email_domains": [
+      "byu.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "db602c87",
+    "name": "Brown University",
+    "short_name": "Brown",
+    "state": "RI",
+    "email_domains": [
+      "brown.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "7371fabe",
+    "name": "California Institute of Technology",
+    "short_name": "Caltech",
+    "state": "CA",
+    "email_domains": [
+      "caltech.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "5d10e838",
+    "name": "California Polytechnic State University, San Luis Obispo",
+    "short_name": "Cal Poly",
+    "state": "CA",
+    "email_domains": [
+      "calpoly.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "292bfd9e",
+    "name": "California State University, Fullerton",
+    "short_name": "CSUF",
+    "state": "CA",
+    "email_domains": [
+      "fullerton.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "80c5b23a",
+    "name": "California State University, Long Beach",
+    "short_name": "CSULB",
+    "state": "CA",
+    "email_domains": [
+      "csulb.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "43b1b998",
+    "name": "California State University, Northridge",
+    "short_name": "CSUN",
+    "state": "CA",
+    "email_domains": [
+      "csun.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "4b49b796",
+    "name": "Carnegie Mellon University",
+    "short_name": "CMU",
+    "state": "PA",
+    "email_domains": [
+      "cmu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "60e2e7fb",
+    "name": "Case Western Reserve University",
+    "short_name": "Case Western",
+    "state": "OH",
+    "email_domains": [
+      "case.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "00cdbd22",
+    "name": "City College of New York, CUNY",
+    "short_name": "CCNY",
+    "state": "NY",
+    "email_domains": [
+      "ccny.cuny.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "153ee2d6",
+    "name": "Claremont McKenna College",
+    "short_name": "CMC",
+    "state": "CA",
+    "email_domains": [
+      "cmc.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "2f86cbcc",
+    "name": "Clemson University",
+    "short_name": "Clemson",
+    "state": "SC",
+    "email_domains": [
+      "clemson.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "8d808f99",
+    "name": "Colorado State University",
+    "short_name": "Colorado State",
+    "state": "CO",
+    "email_domains": [
+      "colostate.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "d584b9e8",
+    "name": "Columbia University",
+    "short_name": "Columbia",
+    "state": "NY",
+    "email_domains": [
+      "columbia.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "f36ed254",
+    "name": "Cornell University",
+    "short_name": "Cornell",
+    "state": "NY",
+    "email_domains": [
+      "cornell.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "34bc93e5",
+    "name": "Dartmouth College",
+    "short_name": "Dartmouth",
+    "state": "NH",
+    "email_domains": [
+      "dartmouth.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "52d43a68",
+    "name": "DePaul University",
+    "short_name": "DePaul",
+    "state": "IL",
+    "email_domains": [
+      "depaul.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "74fbc1ac",
+    "name": "Drexel University",
+    "short_name": "Drexel",
+    "state": "PA",
+    "email_domains": [
+      "drexel.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "61f158d2",
+    "name": "Duke University",
+    "short_name": "Duke",
+    "state": "NC",
+    "email_domains": [
+      "duke.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a308517d",
+    "name": "Emory University",
+    "short_name": "Emory",
+    "state": "GA",
+    "email_domains": [
+      "emory.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "051e68d5",
+    "name": "Florida International University",
+    "short_name": "FIU",
+    "state": "FL",
+    "email_domains": [
+      "fiu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "6754b241",
+    "name": "Florida State University",
+    "short_name": "FSU",
+    "state": "FL",
+    "email_domains": [
+      "fsu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "474f0fab",
+    "name": "Fordham University",
+    "short_name": "Fordham",
+    "state": "NY",
+    "email_domains": [
+      "fordham.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "1aafae9f",
+    "name": "George Mason University",
+    "short_name": "George Mason",
+    "state": "VA",
+    "email_domains": [
+      "gmu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "04240584",
+    "name": "George Washington University",
+    "short_name": "GW",
+    "state": "DC",
+    "email_domains": [
+      "gwu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "93c8e941",
+    "name": "Georgetown University",
+    "short_name": "Georgetown",
+    "state": "DC",
+    "email_domains": [
+      "georgetown.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "6ad445b9",
+    "name": "Georgia Institute of Technology",
+    "short_name": "Georgia Tech",
+    "state": "GA",
+    "email_domains": [
+      "gatech.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "0d42c521",
+    "name": "Georgia State University",
+    "short_name": "Georgia State",
+    "state": "GA",
+    "email_domains": [
+      "gsu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "7e6596eb",
+    "name": "Harvard University",
+    "short_name": "Harvard",
+    "state": "MA",
+    "email_domains": [
+      "harvard.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "468b99a0",
+    "name": "Howard University",
+    "short_name": "Howard",
+    "state": "DC",
+    "email_domains": [
+      "howard.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "32a24abe",
+    "name": "Hunter College, CUNY",
+    "short_name": "Hunter",
+    "state": "NY",
+    "email_domains": [
+      "hunter.cuny.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "b0abafdd",
+    "name": "IE University",
+    "short_name": "IE",
+    "state": "Madrid",
+    "email_domains": [
+      "ie.edu",
+      "student.ie.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "5a0d0db5",
+    "name": "IÉSEG School of Management",
+    "short_name": "IESEG",
+    "state": "Lille & Paris, France",
+    "email_domains": [
+      "ieseg.fr"
+    ],
+    "timezone": "Europe/Paris"
+  },
+  {
+    "id": "82c0f2e0",
+    "name": "Illinois Institute of Technology",
+    "short_name": "Illinois Tech",
+    "state": "IL",
+    "email_domains": [
+      "iit.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "6a13120a",
+    "name": "Indiana University Bloomington",
+    "short_name": "Indiana",
+    "state": "IN",
+    "email_domains": [
+      "iu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "3d65d6d3",
+    "name": "Iowa State University",
+    "short_name": "Iowa State",
+    "state": "IA",
+    "email_domains": [
+      "iastate.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "884b244e",
+    "name": "Johns Hopkins University",
+    "short_name": "JHU",
+    "state": "MD",
+    "email_domains": [
+      "jhu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "d3d3a838",
+    "name": "Kansas State University",
+    "short_name": "K-State",
+    "state": "KS",
+    "email_domains": [
+      "ksu.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "d9fdaa21",
+    "name": "Lehigh University",
+    "short_name": "Lehigh",
+    "state": "PA",
+    "email_domains": [
+      "lehigh.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "81bdbb17",
+    "name": "Louisiana State University",
+    "short_name": "LSU",
+    "state": "LA",
+    "email_domains": [
+      "lsu.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "5e820fa8",
+    "name": "Loyola University Chicago",
+    "short_name": "Loyola Chicago",
+    "state": "IL",
+    "email_domains": [
+      "luc.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "deef8157",
+    "name": "Marquette University",
+    "short_name": "Marquette",
+    "state": "WI",
+    "email_domains": [
+      "marquette.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "c0711ab4",
+    "name": "Massachusetts Institute of Technology",
+    "short_name": "MIT",
+    "state": "MA",
+    "email_domains": [
+      "mit.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "71c1a9b8",
+    "name": "Miami University",
+    "short_name": "Miami Ohio",
+    "state": "OH",
+    "email_domains": [
+      "miamioh.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "10681615",
+    "name": "Michigan State University",
+    "short_name": "Michigan State",
+    "state": "MI",
+    "email_domains": [
+      "msu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "00cf1a5c",
+    "name": "Mississippi State University",
+    "short_name": "Mississippi State",
+    "state": "MS",
+    "email_domains": [
+      "msstate.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "cfbb464f",
+    "name": "Mondragon Unibertsitatea",
+    "short_name": "Mondragon",
+    "state": "País Vasco",
+    "email_domains": [
+      "mondragon.edu",
+      "alumni.mondragon.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "b1bc4055",
+    "name": "Montana State University",
+    "short_name": "Montana State",
+    "state": "MT",
+    "email_domains": [
+      "montana.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "ea2d02e3",
+    "name": "New York University",
+    "short_name": "NYU",
+    "state": "NY",
+    "email_domains": [
+      "nyu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "01d700db",
+    "name": "North Carolina State University",
+    "short_name": "NC State",
+    "state": "NC",
+    "email_domains": [
+      "ncsu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "79f7a70b",
+    "name": "North Dakota State University",
+    "short_name": "NDSU",
+    "state": "ND",
+    "email_domains": [
+      "ndsu.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "34b39a57",
+    "name": "Northeastern University",
+    "short_name": "Northeastern",
+    "state": "MA",
+    "email_domains": [
+      "northeastern.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a8ff19ac",
+    "name": "Northern Arizona University",
+    "short_name": "NAU",
+    "state": "AZ",
+    "email_domains": [
+      "nau.edu"
+    ],
+    "timezone": "America/Phoenix"
+  },
+  {
+    "id": "b367ceb0",
+    "name": "Northwestern University",
+    "short_name": "Northwestern",
+    "state": "IL",
+    "email_domains": [
+      "northwestern.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "ea036cb2",
+    "name": "Oklahoma State University",
+    "short_name": "Oklahoma State",
+    "state": "OK",
+    "email_domains": [
+      "okstate.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "0f228bde",
+    "name": "Oregon State University",
+    "short_name": "Oregon State",
+    "state": "OR",
+    "email_domains": [
+      "oregonstate.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "174daf71",
+    "name": "Pennsylvania State University",
+    "short_name": "Penn State",
+    "state": "PA",
+    "email_domains": [
+      "psu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "35f2c05d",
+    "name": "Pepperdine University",
+    "short_name": "Pepperdine",
+    "state": "CA",
+    "email_domains": [
+      "pepperdine.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "280cc71d",
+    "name": "Pomona College",
+    "short_name": "Pomona",
+    "state": "CA",
+    "email_domains": [
+      "pomona.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "03471cb8",
+    "name": "Portland State University",
+    "short_name": "Portland State",
+    "state": "OR",
+    "email_domains": [
+      "pdx.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "fd4e0084",
+    "name": "Princeton University",
+    "short_name": "Princeton",
+    "state": "NJ",
+    "email_domains": [
+      "princeton.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "bbe8f798",
+    "name": "Purdue University",
+    "short_name": "Purdue",
+    "state": "IN",
+    "email_domains": [
+      "purdue.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "cf2aa44d",
+    "name": "Rensselaer Polytechnic Institute",
+    "short_name": "RPI",
+    "state": "NY",
+    "email_domains": [
+      "rpi.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "9545f284",
+    "name": "Rice University",
+    "short_name": "Rice",
+    "state": "TX",
+    "email_domains": [
+      "rice.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "00e4ff2f",
+    "name": "Rochester Institute of Technology",
+    "short_name": "RIT",
+    "state": "NY",
+    "email_domains": [
+      "rit.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "4a04e618",
+    "name": "Rutgers University",
+    "short_name": "Rutgers",
+    "state": "NJ",
+    "email_domains": [
+      "rutgers.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "707f203c",
+    "name": "San Diego State University",
+    "short_name": "SDSU",
+    "state": "CA",
+    "email_domains": [
+      "sdsu.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "81306777",
+    "name": "San Francisco State University",
+    "short_name": "SFSU",
+    "state": "CA",
+    "email_domains": [
+      "sfsu.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "5843251e",
+    "name": "San Jose State University",
+    "short_name": "SJSU",
+    "state": "CA",
+    "email_domains": [
+      "sjsu.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "7de51eb9",
+    "name": "Santa Clara University",
+    "short_name": "Santa Clara",
+    "state": "CA",
+    "email_domains": [
+      "scu.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "ae35da04",
+    "name": "South Dakota State University",
+    "short_name": "South Dakota State",
+    "state": "SD",
+    "email_domains": [
+      "sdstate.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "64551c16",
+    "name": "Southern Methodist University",
+    "short_name": "SMU",
+    "state": "TX",
+    "email_domains": [
+      "smu.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "73055e55",
+    "name": "Stanford University",
+    "short_name": "Stanford",
+    "state": "CA",
+    "email_domains": [
+      "stanford.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "7352b467",
+    "name": "Stevens Institute of Technology",
+    "short_name": "Stevens",
+    "state": "NJ",
+    "email_domains": [
+      "stevens.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a95ac23a",
+    "name": "Stony Brook University",
+    "short_name": "Stony Brook",
+    "state": "NY",
+    "email_domains": [
+      "stonybrook.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "fc630ac0",
+    "name": "Syracuse University",
+    "short_name": "Syracuse",
+    "state": "NY",
+    "email_domains": [
+      "syr.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "2f71dd21",
+    "name": "Temple University",
+    "short_name": "Temple",
+    "state": "PA",
+    "email_domains": [
+      "temple.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "7d8cb215",
+    "name": "Texas A&M University",
+    "short_name": "Texas A&M",
+    "state": "TX",
+    "email_domains": [
+      "tamu.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "8f4d3a55",
+    "name": "Texas Tech University",
+    "short_name": "Texas Tech",
+    "state": "TX",
+    "email_domains": [
+      "ttu.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "7abadcc2",
+    "name": "The New School",
+    "short_name": "New School",
+    "state": "NY",
+    "email_domains": [
+      "newschool.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "d02bfc90",
+    "name": "The Ohio State University",
+    "short_name": "Ohio State",
+    "state": "OH",
+    "email_domains": [
+      "osu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "0e470c86",
+    "name": "Tufts University",
+    "short_name": "Tufts",
+    "state": "MA",
+    "email_domains": [
+      "tufts.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a2555dda",
+    "name": "Tulane University",
+    "short_name": "Tulane",
+    "state": "LA",
+    "email_domains": [
+      "tulane.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "6a4f6fe7",
+    "name": "Universidad Autónoma de Madrid",
+    "short_name": "UAM",
+    "state": "Madrid",
+    "email_domains": [
+      "uam.es",
+      "estudiante.uam.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "481ed2b8",
+    "name": "Universidad Carlos III de Madrid",
+    "short_name": "UC3M",
+    "state": "Madrid",
+    "email_domains": [
+      "uc3m.es",
+      "alumnos.uc3m.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "d756e170",
+    "name": "Universidad CEU Cardenal Herrera",
+    "short_name": "CEU UCH",
+    "state": "Comunidad Valenciana",
+    "email_domains": [
+      "uchceu.es",
+      "alumnos.uchceu.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "b4904029",
+    "name": "Universidad CEU San Pablo",
+    "short_name": "CEU San Pablo",
+    "state": "Madrid",
+    "email_domains": [
+      "ceu.es",
+      "usp.ceu.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "da05203f",
+    "name": "Universidad Complutense de Madrid",
+    "short_name": "UCM",
+    "state": "Madrid",
+    "email_domains": [
+      "ucm.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "2625921f",
+    "name": "Universidad de Alcalá",
+    "short_name": "UAH",
+    "state": "Madrid",
+    "email_domains": [
+      "uah.es",
+      "edu.uah.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "c4f08797",
+    "name": "Universidad de Alicante",
+    "short_name": "UA",
+    "state": "Comunidad Valenciana",
+    "email_domains": [
+      "ua.es",
+      "alu.ua.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "18b40798",
+    "name": "Universidad de Almería",
+    "short_name": "UAL",
+    "state": "Andalucía",
+    "email_domains": [
+      "ual.es",
+      "inlumine.ual.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "1e518a0a",
+    "name": "Universidad de Burgos",
+    "short_name": "UBU",
+    "state": "Castilla y León",
+    "email_domains": [
+      "ubu.es",
+      "alu.ubu.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "6a581be3",
+    "name": "Universidad de Cádiz",
+    "short_name": "UCA",
+    "state": "Andalucía",
+    "email_domains": [
+      "uca.es",
+      "alum.uca.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "b47b1e61",
+    "name": "Universidad de Cantabria",
+    "short_name": "UNICAN",
+    "state": "Cantabria",
+    "email_domains": [
+      "unican.es",
+      "alumnos.unican.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "36653d09",
+    "name": "Universidad de Castilla-La Mancha",
+    "short_name": "UCLM",
+    "state": "Castilla-La Mancha",
+    "email_domains": [
+      "uclm.es",
+      "alu.uclm.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "c6eb157b",
+    "name": "Universidad de Córdoba",
+    "short_name": "UCO",
+    "state": "Andalucía",
+    "email_domains": [
+      "uco.es",
+      "alumnos.uco.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "ef0a66f6",
+    "name": "Universidad de Deusto",
+    "short_name": "Deusto",
+    "state": "País Vasco",
+    "email_domains": [
+      "deusto.es",
+      "opendeusto.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "3abdb9c3",
+    "name": "Universidad de Extremadura",
+    "short_name": "UEx",
+    "state": "Extremadura",
+    "email_domains": [
+      "unex.es",
+      "alumnos.unex.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "c8d6b624",
+    "name": "Universidad de Granada",
+    "short_name": "UGR",
+    "state": "Andalucía",
+    "email_domains": [
+      "ugr.es",
+      "correo.ugr.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "550cd850",
+    "name": "Universidad de Huelva",
+    "short_name": "UHU",
+    "state": "Andalucía",
+    "email_domains": [
+      "uhu.es",
+      "alu.uhu.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "4c268e6a",
+    "name": "Universidad de Jaén",
+    "short_name": "UJA",
+    "state": "Andalucía",
+    "email_domains": [
+      "ujaen.es",
+      "red.ujaen.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "d8a6af8f",
+    "name": "Universidad de La Laguna",
+    "short_name": "ULL",
+    "state": "Canarias",
+    "email_domains": [
+      "ull.edu.es",
+      "ull.es"
+    ],
+    "timezone": "Atlantic/Canary"
+  },
+  {
+    "id": "4447212f",
+    "name": "Universidad de La Rioja",
+    "short_name": "UR",
+    "state": "La Rioja",
+    "email_domains": [
+      "unirioja.es",
+      "alum.unirioja.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "90d9c6df",
+    "name": "Universidad de Las Palmas de Gran Canaria",
+    "short_name": "ULPGC",
+    "state": "Canarias",
+    "email_domains": [
+      "ulpgc.es",
+      "alu.ulpgc.es"
+    ],
+    "timezone": "Atlantic/Canary"
+  },
+  {
+    "id": "8bbb9b3c",
+    "name": "Universidad de León",
+    "short_name": "ULE",
+    "state": "Castilla y León",
+    "email_domains": [
+      "unileon.es",
+      "estudiantes.unileon.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "1c43b291",
+    "name": "Universidad de Málaga",
+    "short_name": "UMA",
+    "state": "Andalucía",
+    "email_domains": [
+      "uma.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "baff40d8",
+    "name": "Universidad de Murcia",
+    "short_name": "UM",
+    "state": "Murcia",
+    "email_domains": [
+      "um.es",
+      "alu.um.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "eaeb73f6",
+    "name": "Universidad de Navarra",
+    "short_name": "UNAV",
+    "state": "Navarra",
+    "email_domains": [
+      "unav.es",
+      "alumni.unav.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "37614147",
+    "name": "Universidad de Oviedo",
+    "short_name": "Uniovi",
+    "state": "Asturias",
+    "email_domains": [
+      "uniovi.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "be8d9cf5",
+    "name": "Universidad de Salamanca",
+    "short_name": "USAL",
+    "state": "Castilla y León",
+    "email_domains": [
+      "usal.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "49d6953c",
+    "name": "Universidad de Sevilla",
+    "short_name": "US",
+    "state": "Andalucía",
+    "email_domains": [
+      "us.es",
+      "alum.us.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "162a5f96",
+    "name": "Universidad de Valladolid",
+    "short_name": "UVa",
+    "state": "Castilla y León",
+    "email_domains": [
+      "uva.es",
+      "estudiantes.uva.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "9a4539af",
+    "name": "Universidad de Zaragoza",
+    "short_name": "Unizar",
+    "state": "Aragón",
+    "email_domains": [
+      "unizar.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "30751fbb",
+    "name": "Universidad del País Vasco",
+    "short_name": "UPV/EHU",
+    "state": "País Vasco",
+    "email_domains": [
+      "ehu.eus"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "33961acb",
+    "name": "Universidad Europea de Madrid",
+    "short_name": "UEM",
+    "state": "Madrid",
+    "email_domains": [
+      "universidadeuropea.es",
+      "universidadeuropea.com"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "b68a5c9f",
+    "name": "Universidad Francisco de Vitoria",
+    "short_name": "UFV",
+    "state": "Madrid",
+    "email_domains": [
+      "ufv.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "647a215e",
+    "name": "Universidad Loyola Andalucía",
+    "short_name": "Loyola",
+    "state": "Andalucía",
+    "email_domains": [
+      "uloyola.es",
+      "al.uloyola.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "f35b5cc7",
+    "name": "Universidad Miguel Hernández de Elche",
+    "short_name": "UMH",
+    "state": "Comunidad Valenciana",
+    "email_domains": [
+      "umh.es",
+      "goumh.umh.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "2ea71543",
+    "name": "Universidad Nacional de Educación a Distancia",
+    "short_name": "UNED",
+    "state": "Madrid",
+    "email_domains": [
+      "uned.es",
+      "alumno.uned.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "1f03918f",
+    "name": "Universidad Nebrija",
+    "short_name": "Nebrija",
+    "state": "Madrid",
+    "email_domains": [
+      "nebrija.es",
+      "alumnos.nebrija.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "d32f8b9a",
+    "name": "Universidad Pablo de Olavide",
+    "short_name": "UPO",
+    "state": "Andalucía",
+    "email_domains": [
+      "upo.es",
+      "alu.upo.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "e66cad51",
+    "name": "Universidad Politécnica de Cartagena",
+    "short_name": "UPCT",
+    "state": "Murcia",
+    "email_domains": [
+      "upct.es",
+      "edu.upct.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "e00de89d",
+    "name": "Universidad Politécnica de Madrid",
+    "short_name": "UPM",
+    "state": "Madrid",
+    "email_domains": [
+      "upm.es",
+      "alumnos.upm.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "a7e7be03",
+    "name": "Universidad Pontificia Comillas",
+    "short_name": "Comillas",
+    "state": "Madrid",
+    "email_domains": [
+      "comillas.edu",
+      "alu.comillas.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "7aa18914",
+    "name": "Universidad Pública de Navarra",
+    "short_name": "UPNA",
+    "state": "Navarra",
+    "email_domains": [
+      "unavarra.es",
+      "alumnos.unavarra.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "c565d724",
+    "name": "Universidad Rey Juan Carlos",
+    "short_name": "URJC",
+    "state": "Madrid",
+    "email_domains": [
+      "urjc.es",
+      "alumnos.urjc.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "aa5e3725",
+    "name": "Universidad San Jorge",
+    "short_name": "USJ",
+    "state": "Aragón",
+    "email_domains": [
+      "usj.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "cf05094a",
+    "name": "Universidade da Coruña",
+    "short_name": "UDC",
+    "state": "Galicia",
+    "email_domains": [
+      "udc.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "f686b77a",
+    "name": "Universidade de Santiago de Compostela",
+    "short_name": "USC",
+    "state": "Galicia",
+    "email_domains": [
+      "usc.es",
+      "rai.usc.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "ecbe43b4",
+    "name": "Universidade de Vigo",
+    "short_name": "UVigo",
+    "state": "Galicia",
+    "email_domains": [
+      "uvigo.es",
+      "alumnos.uvigo.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "71028be3",
+    "name": "Universitat Autònoma de Barcelona",
+    "short_name": "UAB",
+    "state": "Cataluña",
+    "email_domains": [
+      "uab.cat",
+      "autonoma.cat"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "2a7e1a59",
+    "name": "Universitat de Barcelona",
+    "short_name": "UB",
+    "state": "Cataluña",
+    "email_domains": [
+      "ub.edu",
+      "alumnes.ub.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "fe051dbb",
+    "name": "Universitat de Girona",
+    "short_name": "UdG",
+    "state": "Cataluña",
+    "email_domains": [
+      "udg.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "f8d6c010",
+    "name": "Universitat de les Illes Balears",
+    "short_name": "UIB",
+    "state": "Islas Baleares",
+    "email_domains": [
+      "uib.es",
+      "uib.cat"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "b35f418b",
+    "name": "Universitat de Lleida",
+    "short_name": "UdL",
+    "state": "Cataluña",
+    "email_domains": [
+      "udl.cat",
+      "alumnes.udl.cat"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "07ae5066",
+    "name": "Universitat de València",
+    "short_name": "UV",
+    "state": "Comunidad Valenciana",
+    "email_domains": [
+      "uv.es",
+      "alumni.uv.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "c0695c2c",
+    "name": "Universitat Jaume I",
+    "short_name": "UJI",
+    "state": "Comunidad Valenciana",
+    "email_domains": [
+      "uji.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "11f1437d",
+    "name": "Universitat Oberta de Catalunya",
+    "short_name": "UOC",
+    "state": "Cataluña",
+    "email_domains": [
+      "uoc.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "3ba1e3f2",
+    "name": "Universitat Politècnica de Catalunya",
+    "short_name": "UPC",
+    "state": "Cataluña",
+    "email_domains": [
+      "upc.edu",
+      "estudiantat.upc.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "88b0f2ca",
+    "name": "Universitat Politècnica de València",
+    "short_name": "UPV",
+    "state": "Comunidad Valenciana",
+    "email_domains": [
+      "upv.es",
+      "upv.edu.es"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "d6a45044",
+    "name": "Universitat Pompeu Fabra",
+    "short_name": "UPF",
+    "state": "Cataluña",
+    "email_domains": [
+      "upf.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "09f19d75",
+    "name": "Universitat Ramon Llull",
+    "short_name": "URL",
+    "state": "Cataluña",
+    "email_domains": [
+      "url.edu",
+      "esade.edu",
+      "salle.url.edu"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "a2f79cd3",
+    "name": "Universitat Rovira i Virgili",
+    "short_name": "URV",
+    "state": "Cataluña",
+    "email_domains": [
+      "urv.cat",
+      "estudiants.urv.cat"
+    ],
+    "timezone": "Europe/Madrid"
+  },
+  {
+    "id": "6585e3a6",
+    "name": "University at Buffalo",
+    "short_name": "Buffalo",
+    "state": "NY",
+    "email_domains": [
+      "buffalo.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "629064de",
+    "name": "University of Alabama",
+    "short_name": "Alabama",
+    "state": "AL",
+    "email_domains": [
+      "ua.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "84871665",
+    "name": "University of Alaska Fairbanks",
+    "short_name": "Alaska",
+    "state": "AK",
+    "email_domains": [
+      "alaska.edu"
+    ],
+    "timezone": "America/Anchorage"
+  },
+  {
+    "id": "e9e3fc44",
+    "name": "University of Arizona",
+    "short_name": "Arizona",
+    "state": "AZ",
+    "email_domains": [
+      "arizona.edu"
+    ],
+    "timezone": "America/Phoenix"
+  },
+  {
+    "id": "a42951ec",
+    "name": "University of Arkansas",
+    "short_name": "Arkansas",
+    "state": "AR",
+    "email_domains": [
+      "uark.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "1c1c37b1",
+    "name": "University of California, Berkeley",
+    "short_name": "UC Berkeley",
+    "state": "CA",
+    "email_domains": [
+      "berkeley.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "0c0718f6",
+    "name": "University of California, Davis",
+    "short_name": "UC Davis",
+    "state": "CA",
+    "email_domains": [
+      "ucdavis.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "74a3e6df",
+    "name": "University of California, Irvine",
+    "short_name": "UC Irvine",
+    "state": "CA",
+    "email_domains": [
+      "uci.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "4e56d760",
+    "name": "University of California, Los Angeles",
+    "short_name": "UCLA",
+    "state": "CA",
+    "email_domains": [
+      "ucla.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "2bc08ef4",
+    "name": "University of California, Merced",
+    "short_name": "UC Merced",
+    "state": "CA",
+    "email_domains": [
+      "ucmerced.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "c63f0ece",
+    "name": "University of California, Riverside",
+    "short_name": "UC Riverside",
+    "state": "CA",
+    "email_domains": [
+      "ucr.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "6373f50b",
+    "name": "University of California, San Diego",
+    "short_name": "UC San Diego",
+    "state": "CA",
+    "email_domains": [
+      "ucsd.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "59ad1cd2",
+    "name": "University of California, Santa Barbara",
+    "short_name": "UC Santa Barbara",
+    "state": "CA",
+    "email_domains": [
+      "ucsb.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "4cf83d68",
+    "name": "University of California, Santa Cruz",
+    "short_name": "UC Santa Cruz",
+    "state": "CA",
+    "email_domains": [
+      "ucsc.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "8dabe6d7",
+    "name": "University of Central Florida",
+    "short_name": "UCF",
+    "state": "FL",
+    "email_domains": [
+      "ucf.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "459d66e1",
+    "name": "University of Chicago",
+    "short_name": "UChicago",
+    "state": "IL",
+    "email_domains": [
+      "uchicago.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "a4c6ce15",
+    "name": "University of Cincinnati",
+    "short_name": "Cincinnati",
+    "state": "OH",
+    "email_domains": [
+      "uc.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "2531b92a",
+    "name": "University of Colorado Boulder",
+    "short_name": "CU Boulder",
+    "state": "CO",
+    "email_domains": [
+      "colorado.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "d042ac0f",
+    "name": "University of Connecticut",
+    "short_name": "UConn",
+    "state": "CT",
+    "email_domains": [
+      "uconn.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "f5d55f9b",
+    "name": "University of Delaware",
+    "short_name": "Delaware",
+    "state": "DE",
+    "email_domains": [
+      "udel.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "e484e2a9",
+    "name": "University of Denver",
+    "short_name": "Denver",
+    "state": "CO",
+    "email_domains": [
+      "du.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "fef59cdf",
+    "name": "University of Florida",
+    "short_name": "UF",
+    "state": "FL",
+    "email_domains": [
+      "ufl.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "d5b83d18",
+    "name": "University of Georgia",
+    "short_name": "UGA",
+    "state": "GA",
+    "email_domains": [
+      "uga.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "25530f4f",
+    "name": "University of Hawaii at Manoa",
+    "short_name": "Hawaii",
+    "state": "HI",
+    "email_domains": [
+      "hawaii.edu"
+    ],
+    "timezone": "Pacific/Honolulu"
+  },
+  {
+    "id": "e22c647e",
+    "name": "University of Houston",
+    "short_name": "Houston",
+    "state": "TX",
+    "email_domains": [
+      "uh.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "326d1470",
+    "name": "University of Idaho",
+    "short_name": "Idaho",
+    "state": "ID",
+    "email_domains": [
+      "uidaho.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "fbb88b76",
+    "name": "University of Illinois Chicago",
+    "short_name": "UIC",
+    "state": "IL",
+    "email_domains": [
+      "uic.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "622151ec",
+    "name": "University of Illinois Urbana-Champaign",
+    "short_name": "UIUC",
+    "state": "IL",
+    "email_domains": [
+      "illinois.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "edb4ea57",
+    "name": "University of Iowa",
+    "short_name": "Iowa",
+    "state": "IA",
+    "email_domains": [
+      "uiowa.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "3913be71",
+    "name": "University of Kansas",
+    "short_name": "Kansas",
+    "state": "KS",
+    "email_domains": [
+      "ku.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "5666935c",
+    "name": "University of Kentucky",
+    "short_name": "Kentucky",
+    "state": "KY",
+    "email_domains": [
+      "uky.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "fa7065e3",
+    "name": "University of Louisville",
+    "short_name": "Louisville",
+    "state": "KY",
+    "email_domains": [
+      "louisville.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "8ebf62bb",
+    "name": "University of Maine",
+    "short_name": "UMaine",
+    "state": "ME",
+    "email_domains": [
+      "maine.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "39c264cb",
+    "name": "University of Maryland",
+    "short_name": "UMD",
+    "state": "MD",
+    "email_domains": [
+      "umd.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "4d0b64f1",
+    "name": "University of Massachusetts Amherst",
+    "short_name": "UMass Amherst",
+    "state": "MA",
+    "email_domains": [
+      "umass.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "19ff6bc9",
+    "name": "University of Miami",
+    "short_name": "Miami",
+    "state": "FL",
+    "email_domains": [
+      "miami.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "b3e6d40c",
+    "name": "University of Michigan",
+    "short_name": "Michigan",
+    "state": "MI",
+    "email_domains": [
+      "umich.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "7dbcc4d7",
+    "name": "University of Minnesota",
+    "short_name": "UMN",
+    "state": "MN",
+    "email_domains": [
+      "umn.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "e858eae5",
+    "name": "University of Mississippi",
+    "short_name": "Ole Miss",
+    "state": "MS",
+    "email_domains": [
+      "olemiss.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "f35d6b4b",
+    "name": "University of Missouri",
+    "short_name": "Mizzou",
+    "state": "MO",
+    "email_domains": [
+      "missouri.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "bb47186f",
+    "name": "University of Montana",
+    "short_name": "Montana",
+    "state": "MT",
+    "email_domains": [
+      "umontana.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "86529c8f",
+    "name": "University of Nebraska-Lincoln",
+    "short_name": "Nebraska",
+    "state": "NE",
+    "email_domains": [
+      "unl.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "102177aa",
+    "name": "University of Nevada, Las Vegas",
+    "short_name": "UNLV",
+    "state": "NV",
+    "email_domains": [
+      "unlv.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "3e2747ef",
+    "name": "University of Nevada, Reno",
+    "short_name": "Nevada Reno",
+    "state": "NV",
+    "email_domains": [
+      "unr.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "3ed16640",
+    "name": "University of New Hampshire",
+    "short_name": "UNH",
+    "state": "NH",
+    "email_domains": [
+      "unh.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "ae0034e4",
+    "name": "University of New Mexico",
+    "short_name": "UNM",
+    "state": "NM",
+    "email_domains": [
+      "unm.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "e7b4d1f6",
+    "name": "University of North Carolina at Chapel Hill",
+    "short_name": "UNC",
+    "state": "NC",
+    "email_domains": [
+      "unc.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "41e53224",
+    "name": "University of North Dakota",
+    "short_name": "North Dakota",
+    "state": "ND",
+    "email_domains": [
+      "und.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "fa6e68ca",
+    "name": "University of North Texas",
+    "short_name": "UNT",
+    "state": "TX",
+    "email_domains": [
+      "unt.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "4b0cea0d",
+    "name": "University of Notre Dame",
+    "short_name": "Notre Dame",
+    "state": "IN",
+    "email_domains": [
+      "nd.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "13de79a8",
+    "name": "University of Oklahoma",
+    "short_name": "Oklahoma",
+    "state": "OK",
+    "email_domains": [
+      "ou.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "403b9694",
+    "name": "University of Oregon",
+    "short_name": "Oregon",
+    "state": "OR",
+    "email_domains": [
+      "uoregon.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "9d8931ea",
+    "name": "University of Pennsylvania",
+    "short_name": "UPenn",
+    "state": "PA",
+    "email_domains": [
+      "upenn.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "6b4f7662",
+    "name": "University of Pittsburgh",
+    "short_name": "Pitt",
+    "state": "PA",
+    "email_domains": [
+      "pitt.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a20ab26e",
+    "name": "University of Rhode Island",
+    "short_name": "URI",
+    "state": "RI",
+    "email_domains": [
+      "uri.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "b203e3b5",
+    "name": "University of Rochester",
+    "short_name": "Rochester",
+    "state": "NY",
+    "email_domains": [
+      "rochester.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "d67dc882",
+    "name": "University of San Diego",
+    "short_name": "USD",
+    "state": "CA",
+    "email_domains": [
+      "sandiego.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "39e540dd",
+    "name": "University of South Carolina",
+    "short_name": "South Carolina",
+    "state": "SC",
+    "email_domains": [
+      "sc.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "42a3596a",
+    "name": "University of South Dakota",
+    "short_name": "South Dakota",
+    "state": "SD",
+    "email_domains": [
+      "usd.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "1e1713cb",
+    "name": "University of South Florida",
+    "short_name": "USF",
+    "state": "FL",
+    "email_domains": [
+      "usf.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "f1087838",
+    "name": "University of Southern California",
+    "short_name": "USC",
+    "state": "CA",
+    "email_domains": [
+      "usc.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "2f73e2de",
+    "name": "University of Tennessee",
+    "short_name": "Tennessee",
+    "state": "TN",
+    "email_domains": [
+      "utk.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "f5d9c058",
+    "name": "University of Texas at Austin",
+    "short_name": "UT Austin",
+    "state": "TX",
+    "email_domains": [
+      "utexas.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "1218be88",
+    "name": "University of Texas at Dallas",
+    "short_name": "UT Dallas",
+    "state": "TX",
+    "email_domains": [
+      "utdallas.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "a5fd8eec",
+    "name": "University of Texas at San Antonio",
+    "short_name": "UTSA",
+    "state": "TX",
+    "email_domains": [
+      "utsa.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "de13755a",
+    "name": "University of Utah",
+    "short_name": "Utah",
+    "state": "UT",
+    "email_domains": [
+      "utah.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "a3975644",
+    "name": "University of Vermont",
+    "short_name": "UVM",
+    "state": "VT",
+    "email_domains": [
+      "uvm.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "b24f281c",
+    "name": "University of Virginia",
+    "short_name": "UVA",
+    "state": "VA",
+    "email_domains": [
+      "virginia.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "24919ce5",
+    "name": "University of Washington",
+    "short_name": "UW",
+    "state": "WA",
+    "email_domains": [
+      "uw.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "a421b943",
+    "name": "University of Wisconsin-Madison",
+    "short_name": "UW-Madison",
+    "state": "WI",
+    "email_domains": [
+      "wisc.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "1e5e411d",
+    "name": "University of Wyoming",
+    "short_name": "Wyoming",
+    "state": "WY",
+    "email_domains": [
+      "uwyo.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "2f662dc7",
+    "name": "Utah State University",
+    "short_name": "Utah State",
+    "state": "UT",
+    "email_domains": [
+      "usu.edu"
+    ],
+    "timezone": "America/Denver"
+  },
+  {
+    "id": "32fae7fe",
+    "name": "Vanderbilt University",
+    "short_name": "Vanderbilt",
+    "state": "TN",
+    "email_domains": [
+      "vanderbilt.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "f8c69179",
+    "name": "Villanova University",
+    "short_name": "Villanova",
+    "state": "PA",
+    "email_domains": [
+      "villanova.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "1da8adb9",
+    "name": "Virginia Tech",
+    "short_name": "Virginia Tech",
+    "state": "VA",
+    "email_domains": [
+      "vt.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "5d40c61c",
+    "name": "Wake Forest University",
+    "short_name": "Wake Forest",
+    "state": "NC",
+    "email_domains": [
+      "wfu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "074a54b5",
+    "name": "Washington State University",
+    "short_name": "WSU",
+    "state": "WA",
+    "email_domains": [
+      "wsu.edu"
+    ],
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "f897e99e",
+    "name": "Washington University in St. Louis",
+    "short_name": "WashU",
+    "state": "MO",
+    "email_domains": [
+      "wustl.edu"
+    ],
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "7ed3b95d",
+    "name": "Wayne State University",
+    "short_name": "Wayne State",
+    "state": "MI",
+    "email_domains": [
+      "wayne.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a76a3ed2",
+    "name": "Wesleyan University",
+    "short_name": "Wesleyan",
+    "state": "CT",
+    "email_domains": [
+      "wesleyan.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "3179edcd",
+    "name": "West Virginia University",
+    "short_name": "WVU",
+    "state": "WV",
+    "email_domains": [
+      "wvu.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "d75eaf03",
+    "name": "William & Mary",
+    "short_name": "William & Mary",
+    "state": "VA",
+    "email_domains": [
+      "wm.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "a5e3bd93",
+    "name": "Worcester Polytechnic Institute",
+    "short_name": "WPI",
+    "state": "MA",
+    "email_domains": [
+      "wpi.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "3d9a1b7f",
+    "name": "Yale University",
+    "short_name": "Yale",
+    "state": "CT",
+    "email_domains": [
+      "yale.edu"
+    ],
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "2fa1b215",
+    "name": "Yeshiva University",
+    "short_name": "Yeshiva",
+    "state": "NY",
+    "email_domains": [
+      "yu.edu"
+    ],
+    "timezone": "America/New_York"
+  }
+]
