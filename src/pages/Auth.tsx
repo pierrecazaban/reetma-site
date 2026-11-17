@@ -74,7 +74,7 @@ export default function Auth() {
                 Le back office de Reetma
               </h2>
               <p className="text-white/65 text-[15px] mt-7 leading-relaxed font-light max-w-md">
-                Inscriptions et paiements de L'École lus en direct depuis Mollie, tickets du centre d'aide et statistiques du site.
+                Inscriptions et paiements de L'École lus en direct depuis Stripe (et Mollie pour les plus anciennes), tickets du centre d'aide et statistiques du site.
               </p>
             </div>
             <div className="space-y-6">

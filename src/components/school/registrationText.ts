@@ -91,7 +91,7 @@ const en = {
     seatHeld: (time: string) => `Seat held until ${time}.`,
     pay: (price: string) => `Pay ${price} securely`,
     mollieNote:
-      "You will pay on Mollie's secure payment page (card, Apple Pay and other methods), then come straight back here to see your confirmation. Questions? Use our ",
+      "You will pay on Stripe's secure payment page (card, Apple Pay and other methods), then come straight back here to see your confirmation. Questions? Use our ",
     backToDetails: "Back to my details",
   },
 };
@@ -186,7 +186,7 @@ const fr: RegistrationText = {
     seatHeld: (time: string) => `Place réservée jusqu'à ${time}.`,
     pay: (price: string) => `Payer ${price} en toute sécurité`,
     mollieNote:
-      "Vous paierez sur la page de paiement sécurisée de Mollie (carte, Apple Pay et autres moyens), puis vous reviendrez directement ici pour voir votre confirmation. Une question ? Passez par notre ",
+      "Vous paierez sur la page de paiement sécurisée de Stripe (carte, Apple Pay et autres moyens), puis vous reviendrez directement ici pour voir votre confirmation. Une question ? Passez par notre ",
     backToDetails: "Revenir à mes coordonnées",
   },
 };

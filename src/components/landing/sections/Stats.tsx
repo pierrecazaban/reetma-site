@@ -1,7 +1,7 @@
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 const stats = [
-  { value: "5 → 1", label: "People", sub: "on one critical process after automation, at Farmasoft" },
+  { value: "5 → 1", label: "People", sub: "on one critical process after automation, at a client" },
   { value: "~20 FTE", label: "Optimised", sub: "workload perimeter addressed across the engagement" },
   { value: "0", label: "Unvalidated", sub: "actions. Every output is checked by your team before it runs" },
 ];

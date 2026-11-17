@@ -1,14 +1,15 @@
 // Student accounts: /api/account?action=…
 //   GET  me                                   → { student } or 401
-//   POST setup    { pid, password }           → creates the account of a paid registration (pid = Mollie payment id)
+//   POST setup    { pid, password }           → creates the account of a paid registration (pid = Stripe Checkout Session id, or Mollie payment id before)
 //   POST login    { email, password }
 //   POST logout
 //   POST password { current_password, new_password }   (logged in)
 //   POST forgot   { email }                   → always { ok: true }; emails a reset link if the account exists
 //   POST reset    { token, password }
 // One function for every action keeps the deployment under the Vercel function limit.
-import { SCHOOL, mollie, send, readJson, rateLimited, clientIp, mapStatus, currentMode, siteOrigin } from "./_lib.js";
+import { SCHOOL, send, readJson, rateLimited, clientIp, mapStatus, currentMode, siteOrigin } from "./_lib.js";
 import { sql } from "./_db.js";
+import { validPaymentId, canRead, getPayment } from "./_payments.js";
 import {
   hashPassword,
   verifyPassword,
@@ -29,11 +30,11 @@ const DUMMY_HASH = "scrypt$16384$8$1$AAAAAAAAAAAAAAAAAAAAAA$" + "A".repeat(86);
 
 async function setup(req, res, b) {
   const pid = typeof b.pid === "string" ? b.pid : "";
-  if (!/^tr_[A-Za-z0-9]{6,30}$/.test(pid)) return send(res, 400, { ok: false, error: "invalid" });
+  if (!validPaymentId(pid) || !canRead(pid)) return send(res, 400, { ok: false, error: "invalid" });
   if (!validPassword(b.password)) return send(res, 400, { ok: false, error: "weak_password" });
   let p;
   try {
-    p = await mollie(`/payments/${pid}`);
+    p = await getPayment(pid);
   } catch (err) {
     if (err?.status === 404) return send(res, 404, { ok: false, error: "not_found" });
     throw err;

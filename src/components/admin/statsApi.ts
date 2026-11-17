@@ -50,7 +50,7 @@ export function liveFunnel(pages: OnlinePage[]): StatsCount[] {
   return [
     { key: "school", label: "Sur L'École", count: schools.reduce((n, p) => n + p.count, 0) - formTotal },
     ...LIVE_FORM.map(([key, label]) => ({ key, label, count: inForm(key) })),
-    { key: "mollie", label: "Paiement Mollie", count: count((k) => k === "mollie") },
+    { key: "mollie", label: "Paiement Stripe", count: count((k) => k === "mollie") },
     { key: "confirmation", label: "Création du mot de passe", count: count((k) => k === "confirmation") },
     { key: "account", label: "Espace étudiant", count: count((k) => k === "account") },
     { key: "modules", label: "Dans un module", count: count((k) => k.startsWith("module_")) },

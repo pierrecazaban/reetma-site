@@ -450,7 +450,7 @@ export default function AdminTickets() {
 
       {query.data?.mode === "test" && (
         <p className="rounded-md px-3 py-2 text-xs" style={{ background: "#FDEBDD", color: "#B4561F" }}>
-          Mode test : vous voyez les tickets créés sur les previews (clé Mollie de test), pas ceux de la production.
+          Mode test : vous voyez les tickets créés sur les previews (clé de paiement de test), pas ceux de la production.
         </p>
       )}
 

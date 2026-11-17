@@ -88,7 +88,7 @@ export default function EcoleConditions() {
           <Section title="Prix et paiement">
             <p>
               Les frais d'inscription s'élèvent à {text.priceDisplay} TTC (toutes taxes comprises), réglés en
-              une seule fois en ligne, en euros, via notre prestataire de paiement Mollie. Ils couvrent{" "}
+              une seule fois en ligne, en euros, via notre prestataire de paiement Stripe. Ils couvrent{" "}
               {text.feeCovers} C'est le seul montant payé par les étudiants.
             </p>
           </Section>

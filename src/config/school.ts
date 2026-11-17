@@ -73,7 +73,7 @@ export const schoolConfig = {
 export const INDEPENDENCE_NOTICE =
   "Select your university to check your eligibility for the student offer. This program is run independently by Reetma. It is not organized by any university, it does not award academic credit.";
 
-export const SCHOOL_URL = "https://reetma.com/school";
+export const SCHOOL_URL = "https://reetma-agency.com/school";
 
 /** Features still being rolled out. While off, the confirmation page does not offer the student space. */
 export const schoolFeatures = {

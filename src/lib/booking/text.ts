@@ -87,7 +87,7 @@ export const BOOKING_TEXT = {
       newTab: "(opens in a new tab)",
       nextTitle: "What happens next",
       next: "We'll email you the video-call link before the call.",
-      emailNote: "Our emails come from no-reply@reetma.com and may land in your spam folder: check it.",
+      emailNote: "Our emails come from no-reply@reetma-agency.com and may land in your spam folder: check it.",
       cancelTitle: "Cancel or reschedule",
       cancel:
         "The confirmation email has a link to cancel the call. To reschedule, cancel it, then book a new time on this page.",
@@ -204,7 +204,7 @@ export const BOOKING_TEXT = {
       newTab: "(s'ouvre dans un nouvel onglet)",
       nextTitle: "Et ensuite ?",
       next: "Nous vous enverrons le lien de la visioconférence par e-mail avant l'appel.",
-      emailNote: "Nos e-mails partent de no-reply@reetma.com et peuvent arriver dans les spams : pensez à vérifier.",
+      emailNote: "Nos e-mails partent de no-reply@reetma-agency.com et peuvent arriver dans les spams : pensez à vérifier.",
       cancelTitle: "Annuler ou déplacer",
       cancel:
         "L'e-mail de confirmation contient un lien pour annuler l'appel. Pour le déplacer, annulez-le, puis réservez un nouveau créneau sur cette page.",

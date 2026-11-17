@@ -200,7 +200,7 @@ export default function AdminStats() {
 
       {mode === "test" && (
         <p className="rounded-md px-3 py-2 text-xs" style={{ background: "#FDEBDD", color: "#9A4A1A" }}>
-          Mode test : vous voyez les visites des previews (clé Mollie de test), pas celles de la production.
+          Mode test : vous voyez les visites des previews (clé de paiement de test), pas celles de la production.
         </p>
       )}
 
@@ -217,8 +217,8 @@ export default function AdminStats() {
           dans les {IDLE_MS / 60_000} dernières minutes, puis jusqu'à {now?.online.window_seconds ?? 150} secondes après
           son dernier signal. Le formulaire d'inscription est compté sous la page de L'École.
         </SectionHead>
-        <Help summary="Partis payer sur Mollie : comment ils sont comptés">
-          Une personne partie payer reste comptée « Sur la page de paiement Mollie » jusqu'à son retour dans le même
+        <Help summary="Partis payer sur Stripe : comment ils sont comptés">
+          Une personne partie payer reste comptée « Sur la page de paiement Stripe » jusqu'à son retour dans le même
           onglet ou sur la page de confirmation dans ce navigateur, 10 minutes au plus. Si elle revient autrement (dans un
           autre navigateur, partie depuis Instagram et revenue dans Safari par exemple, ou sur une autre page dans un
           nouvel onglet), elle peut être comptée deux fois pendant ce délai.

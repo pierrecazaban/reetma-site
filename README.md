@@ -2,7 +2,7 @@
 
 Site de Reetma (conseil en IA, automatisation, data et cloud) et de L'École, le programme étudiant.
 
-- Front : React + Vite + Tailwind (`src/`), hébergé sur Vercel, domaine `https://reetma.com`
+- Front : React + Vite + Tailwind (`src/`), hébergé sur Vercel, domaine `https://reetma-agency.com`
 - L'École en anglais (`/school`) et en français (`/ecole`) : mêmes composants, la langue vient de l'URL
   (`src/lib/school/lang.ts`). La langue choisie suit l'étudiant : paiement Mollie, e-mails, espace étudiant.
 - Base de données : Neon Postgres (Francfort), schéma `db/schema.sql`
@@ -34,9 +34,9 @@ passe oublié par lien valable 1 h (centre d'aide).
 - `/help` et `/aide` : « Mot de passe oublié ? », « Remboursement », puis formulaire de ticket
   (`api/help.js`). Les tickets se lisent et se traitent dans `/admin/tickets` ; la réponse part par e-mail.
 - Aucune adresse e-mail de contact n'est affichée sur le site, mentions légales comprises : on écrit par le centre
-  d'aide (les mentions légales donnent aussi un téléphone). Seule l'adresse d'expédition `no-reply@reetma.com`
+  d'aide (les mentions légales donnent aussi un téléphone). Seule l'adresse d'expédition `no-reply@reetma-agency.com`
   apparaît, sur la page de confirmation (`src/pages/school/Confirmation.tsx`), pour retrouver l'e-mail dans les spams.
-- E-mails Resend depuis `no-reply@reetma.com` (`api/_email.js`, `api/_ticketEmails.js`,
+- E-mails Resend depuis `no-reply@reetma-agency.com` (`api/_email.js`, `api/_ticketEmails.js`,
   `api/_certificateEmails.js`) : bouton « Centre d'aide » et mention « personne ne lit cette boîte ».
 
 ## Prise de rendez-vous
@@ -106,7 +106,7 @@ un clic sur `/auth` ou `/admin`, ni gonfler les statistiques avec une iframe inv
 | `MOLLIE_API_KEY` | Clé Mollie : `live_…` en Production, `test_…` en Preview |
 | `ADMIN_EMAIL` / `ADMIN_PASSWORD` | Compte unique de l'admin (mot de passe : 8 caractères minimum) |
 | `RESEND_API_KEY` | Clé Resend (`re_…`, accès « envoi » suffit) |
-| `EMAIL_FROM` | Expéditeur, ex. `L'École by Reetma <no-reply@reetma.com>` (domaine vérifié dans Resend) |
+| `EMAIL_FROM` | Expéditeur, ex. `L'École by Reetma <no-reply@reetma-agency.com>` (domaine vérifié dans Resend) |
 | `SESSION_SECRET` | Secret de signature des sessions étudiantes (différent en Production et en Preview) |
 | `DATABASE_URL` (+ `PG…`, `POSTGRES…`) | Créées par l'intégration Neon |
 | `SITE_URL` | Optionnel : adresse publique du site, si elle diffère du domaine de la requête |
@@ -173,9 +173,9 @@ au rechargement suivant. Recharger la page avant de conclure qu'une correction n
 
 ## Domaine
 
-`reetma.com` (DNS chez GoDaddy : A `@` → 216.198.79.1 et 64.29.17.1, CNAME `www` → `reetma.com`, plus les
-enregistrements Resend). `www.reetma.com` redirige vers `reetma.com` (`vercel.json`).
-`reetma-six.vercel.app` répond toujours, sans redirection, pour les webhooks des anciens paiements.
+`reetma-agency.com` (domaine et DNS chez OVH : A `@` et `www` → 158.69.232.131, le VPS, plus les enregistrements
+Resend et la messagerie Zimbra). Le site tourne sur le VPS dans Docker (`deploy/`), derrière le Caddy de Smart Mail,
+qui fait le HTTPS et redirige `www.reetma-agency.com` vers `reetma-agency.com`.
 
 Le domaine public est écrit en dur dans `index.html`, `public/robots.txt`, `public/sitemap.xml`,
 `public/**/index.html`, `src/components/Seo.tsx`, `src/config/school.ts`, `src/pages/school/School.tsx`

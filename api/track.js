@@ -40,7 +40,7 @@ const STAGES = [
   ["step_2", "Université choisie"],
   ["step_3", "Coordonnées remplies"],
   ["payment_step", "Étape paiement atteinte"],
-  ["checkout", "Parti payer sur Mollie"],
+  ["checkout", "Parti payer sur Stripe"],
   ["paid", "Paiement réussi"],
   ["account", "Compte créé"],
   ["module_1", "Module 1 terminé"],

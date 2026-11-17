@@ -70,7 +70,7 @@ export default function Ecole() {
         title="L'École par Reetma | Obtenez votre certification IA en 3 heures"
         description="Accédez tout de suite à 3 modules en ligne, réussissez le test final et obtenez votre Certificat de réussite Reetma en IA."
         path="/ecole"
-        image="https://reetma.com/school-og.png?v=3h"
+        image="https://reetma-agency.com/school-og.png?v=3h"
         lang="fr"
         alternates={{ en: "/school", fr: "/ecole" }}
       />
@@ -82,7 +82,7 @@ export default function Ecole() {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Reetma",
-              url: "https://reetma.com",
+              url: "https://reetma-agency.com",
             },
             {
               "@context": "https://schema.org",
@@ -91,8 +91,8 @@ export default function Ecole() {
               description:
                 "Obtenez votre certification IA en 3 heures grâce à 3 modules en ligne à suivre à votre rythme et un test final, centrés sur l'usage concret de l'IA au travail.",
               inLanguage: "fr",
-              url: "https://reetma.com/ecole",
-              provider: { "@type": "Organization", name: "Reetma", url: "https://reetma.com" },
+              url: "https://reetma-agency.com/ecole",
+              provider: { "@type": "Organization", name: "Reetma", url: "https://reetma-agency.com" },
             },
           ]),
         }}

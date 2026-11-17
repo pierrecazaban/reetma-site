@@ -24,7 +24,7 @@ const companyInfo = [
     icon: Phone,
     title: "Contact",
     items: [
-      { label: "Centre d'aide", value: "reetma.com/aide", helpCenter: true },
+      { label: "Centre d'aide", value: "reetma-agency.com/aide", helpCenter: true },
       { label: "Téléphone", value: "+33 6 70 98 26 83", href: "tel:+33670982683" },
     ],
   },
@@ -34,12 +34,12 @@ const additionalSections = [
   {
     icon: Server,
     title: "Directeur de la publication",
-    body: "Le directeur de la publication du site reetma.com est Pierre Cazaban, exploitant de Reetma. Toute demande relative au contenu publié peut lui être adressée depuis le centre d'aide du site (reetma.com/aide).",
+    body: "Le directeur de la publication du site reetma-agency.com est Pierre Cazaban, exploitant de Reetma. Toute demande relative au contenu publié peut lui être adressée depuis le centre d'aide du site (reetma-agency.com/aide).",
   },
   {
     icon: Server,
     title: "Hébergement",
-    body: "Le site reetma.com est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis (vercel.com). Les paiements sont traités par Mollie B.V., Keizersgracht 126, 1015 CW Amsterdam, Pays-Bas. Toute demande technique peut être adressée depuis le centre d'aide du site (reetma.com/aide).",
+    body: "Le site reetma-agency.com est hébergé par OVH SAS, 2 rue Kellermann, 59100 Roubaix, France (ovhcloud.com). Les paiements sont traités par Stripe Payments Europe, Ltd., 1 Grand Canal Street Lower, Grand Canal Dock, Dublin D02 H210, Irlande. Toute demande technique peut être adressée depuis le centre d'aide du site (reetma-agency.com/aide).",
   },
   {
     icon: Shield,
@@ -49,7 +49,7 @@ const additionalSections = [
   {
     icon: Shield,
     title: "Données personnelles et cookies",
-    body: "Les données personnelles collectées via ce site sont traitées conformément au Règlement (UE) 2016/679 (RGPD) et à la loi Informatique et Libertés. Vous disposez d'un droit d'accès, de rectification, d'effacement, de portabilité, de limitation et d'opposition que vous pouvez exercer à tout moment en ouvrant une demande dans le centre d'aide du site (reetma.com/aide). Pour le détail des traitements et de la politique de cookies, merci de consulter la Politique de confidentialité accessible depuis le pied de page du site.",
+    body: "Les données personnelles collectées via ce site sont traitées conformément au Règlement (UE) 2016/679 (RGPD) et à la loi Informatique et Libertés. Vous disposez d'un droit d'accès, de rectification, d'effacement, de portabilité, de limitation et d'opposition que vous pouvez exercer à tout moment en ouvrant une demande dans le centre d'aide du site (reetma-agency.com/aide). Pour le détail des traitements et de la politique de cookies, merci de consulter la Politique de confidentialité accessible depuis le pied de page du site.",
   },
   {
     icon: Scale,

@@ -140,5 +140,5 @@ export function issueYearMonth(iso: string): { year: number; month: number } {
 
 /** Public verification page of a certificate (the link given to LinkedIn). Always on the production domain. */
 export function certificateVerifyUrl(lang: SchoolLang, code: string): string {
-  return `https://reetma.com${SCHOOL_PATHS[lang].verify}/${code}`;
+  return `https://reetma-agency.com${SCHOOL_PATHS[lang].verify}/${code}`;
 }

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /auth
 Disallow: /admin
 
-Sitemap: https://reetma.com/sitemap.xml
+Sitemap: https://reetma-agency.com/sitemap.xml

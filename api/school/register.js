@@ -1,8 +1,9 @@
 // POST /api/school/register
-// Validates the student's details and creates a Mollie payment for the registration fee.
-// Returns the Mollie checkout URL; the browser then sends the student to Mollie.
+// Validates the student's details and creates a Stripe Checkout Session for the registration fee.
+// Returns the Stripe Checkout URL; the browser then sends the student to Stripe.
 import crypto from "node:crypto";
-import { SCHOOL, PATHS, langOf, mollie, mollieKey, siteOrigin, send, readJson, rateLimited, clientIp } from "../_lib.js";
+import { SCHOOL, PATHS, langOf, siteOrigin, send, readJson, rateLimited, clientIp } from "../_lib.js";
+import { stripe, stripeKey } from "../_stripe.js";
 import { fromExcludedCountry } from "../_track.js";
 import { UNIVERSITIES } from "../_universities.js";
 
@@ -10,7 +11,10 @@ const str = (v, max = 120) => (typeof v === "string" ? v.trim().slice(0, max) : 
 
 export default async function handler(req, res) {
   if (req.method !== "POST") return send(res, 405, { result: "error" });
-  if (!SCHOOL.paymentsOpen || !mollieKey()) return send(res, 503, { result: "payments_unavailable" });
+  // Without the database, a paid student could not open an account: take no payment then.
+  if (!SCHOOL.paymentsOpen || !stripeKey() || !process.env.DATABASE_URL) {
+    return send(res, 503, { result: "payments_unavailable" });
+  }
   if (rateLimited(`reg:${clientIp(req)}`)) return send(res, 429, { result: "rate_limited" });
 
   const b = await readJson(req);
@@ -46,7 +50,7 @@ export default async function handler(req, res) {
   const utm = b.utm && typeof b.utm === "object" ? b.utm : {};
   const now = new Date().toISOString();
 
-  // Mollie metadata is limited to 1 KB: keep it compact.
+  // Stripe metadata: 50 keys, 500 characters per value, strings only (api/_stripe.js reads the numbers back).
   const metadata = {
     app: SCHOOL.app,
     ref,
@@ -61,42 +65,52 @@ export default async function handler(req, res) {
     grad: d.graduation_year || undefined,
     heard: d.heard_about || undefined,
     utm: str(utm.utm_source, 40) || undefined,
-    mkt: b.marketing_opt_in === true ? 1 : 0,
+    mkt: b.marketing_opt_in === true ? "1" : "0",
     terms: str(b.terms_version, 20) || SCHOOL.termsVersion,
     waiver: now, // immediate access requested + right of withdrawal waived (checkbox)
     lang,
-    nostats: fromExcludedCountry(req) ? 1 : undefined, // the webhook leaves the payment out of the statistics
+    nostats: fromExcludedCountry(req) ? "1" : undefined, // the webhook leaves the payment out of the statistics
   };
 
   try {
-    const payment = await mollie("/payments", {
+    // Stripe puts the session id in place of {CHECKOUT_SESSION_ID}: the return page reads it from ?pid=.
+    const expires = Math.floor(Date.now() / 1000) + 30 * 60; // 30 min, Stripe's minimum
+    const session = await stripe("/checkout/sessions", {
       method: "POST",
       body: {
-        amount: { currency: SCHOOL.currency, value: SCHOOL.amount },
-        description: `L'École by Reetma · ${ref}`,
-        redirectUrl: `${origin}${PATHS[lang].confirmation}?ref=${ref}`,
-        webhookUrl: `${origin}/api/school/mollie-webhook`,
-        locale: lang === "fr" ? "fr_FR" : "en_US",
+        mode: "payment",
+        line_items: [
+          {
+            quantity: 1,
+            price_data: {
+              currency: SCHOOL.currency.toLowerCase(),
+              unit_amount: Math.round(Number(SCHOOL.amount) * 100),
+              product_data: { name: `L'École by Reetma · ${SCHOOL.intakeName}` },
+            },
+          },
+        ],
+        customer_email: d.email,
+        client_reference_id: ref,
+        locale: lang === "fr" ? "fr" : "en",
+        success_url: `${origin}${PATHS[lang].confirmation}?pid={CHECKOUT_SESSION_ID}`,
+        cancel_url: `${origin}${PATHS[lang].home}`,
+        expires_at: expires,
         metadata,
+        payment_intent_data: { description: `L'École by Reetma · ${ref}`, metadata: { app: SCHOOL.app, ref } },
       },
     });
-    // Now that the payment id is known, point the return page at it.
-    await mollie(`/payments/${payment.id}`, {
-      method: "PATCH",
-      body: { redirectUrl: `${origin}${PATHS[lang].confirmation}?pid=${payment.id}` },
-    }).catch(() => {});
 
     return send(res, 200, {
       result: "reserved",
-      registration_id: payment.id,
+      registration_id: session.id,
       public_ref: ref,
       client_token: "",
-      checkout_url: payment._links?.checkout?.href,
-      hold_expires_at: payment.expiresAt || new Date(Date.now() + 15 * 60 * 1000).toISOString(),
+      checkout_url: session.url,
+      hold_expires_at: new Date(expires * 1000).toISOString(),
       intake_name: SCHOOL.intakeName,
     });
   } catch (err) {
-    console.error("[register] Mollie error", err?.status, err?.message);
+    console.error("[register] Stripe error", err?.status, err?.message);
     return send(res, 502, { result: "error" });
   }
 }

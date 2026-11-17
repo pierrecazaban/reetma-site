@@ -20,8 +20,8 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.reetma.com" }],
-      "destination": "https://reetma.com/:path*",
+      "has": [{ "type": "host", "value": "www.reetma-agency.com" }],
+      "destination": "https://reetma-agency.com/:path*",
       "permanent": true
     }
   ],

@@ -1,7 +1,7 @@
 // Transactional emails, sent through Resend from a no-reply address.
 // Needs two Vercel environment variables; without them nothing is sent:
 //   RESEND_API_KEY  (re_...)
-//   EMAIL_FROM      e.g. "L'École by Reetma <no-reply@reetma.com>" (domain verified in Resend)
+//   EMAIL_FROM      e.g. "L'École by Reetma <no-reply@reetma-agency.com>" (domain verified in Resend)
 // Every email carries a help-center button and says that nobody reads the sending inbox.
 import { PATHS, langOf } from "./_lib.js";
 

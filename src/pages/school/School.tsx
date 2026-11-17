@@ -69,7 +69,7 @@ export default function School() {
         title="L'École by Reetma | Get your AI certification in 3 hours"
         description="Get instant access to 3 online modules, pass the final test and earn your Reetma AI Certificate of Completion."
         path="/school"
-        image="https://reetma.com/school-og.png?v=3h"
+        image="https://reetma-agency.com/school-og.png?v=3h"
         lang="en"
         alternates={{ en: "/school", fr: "/ecole" }}
       />
@@ -81,7 +81,7 @@ export default function School() {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Reetma",
-              url: "https://reetma.com",
+              url: "https://reetma-agency.com",
             },
             {
               "@context": "https://schema.org",
@@ -89,7 +89,7 @@ export default function School() {
               name: "L'École by Reetma",
               description:
                 "Earn your AI certification in 3 hours through 3 self-paced online modules and a final test, focused on real-world AI use at work.",
-              provider: { "@type": "Organization", name: "Reetma", url: "https://reetma.com" },
+              provider: { "@type": "Organization", name: "Reetma", url: "https://reetma-agency.com" },
             },
           ]),
         }}

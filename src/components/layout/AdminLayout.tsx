@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { NavLink, Outlet, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import { Activity, GraduationCap, LifeBuoy, LogOut, ExternalLink } from "lucide-react";
+import { Activity, LayoutDashboard, LifeBuoy, LogOut, ExternalLink } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
 import { adminFetch } from "@/lib/admin";
 import { setTrackingOptOut } from "@/lib/track";
@@ -9,7 +9,7 @@ import reetmaLogo from "@/assets/reetma-logo.png";
 
 // Tickets stays second: its open-tickets badge must stay in view on narrow screens.
 const NAV = [
-  { to: "/admin", label: "Inscriptions", icon: GraduationCap, end: true },
+  { to: "/admin", label: "Tableau de bord", icon: LayoutDashboard, end: true },
   { to: "/admin/tickets", label: "Tickets", icon: LifeBuoy, end: false },
   { to: "/admin/stats", label: "Statistiques", icon: Activity, end: false },
 ];

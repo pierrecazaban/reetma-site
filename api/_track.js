@@ -53,7 +53,7 @@ const BY_PATH = new Map(PAGES.flatMap(([key, label, paths]) => paths.map((p) => 
  * `form` gives its step (form_1 to form_4, 4 = payment step). A visit gone to pay ("mollie") has a page of its own.
  */
 export function pageOf(path, step) {
-  if (step === "mollie") return { key: "mollie", label: "Sur la page de paiement Mollie" };
+  if (step === "mollie") return { key: "mollie", label: "Sur la page de paiement Stripe" };
   // Like React Router: case and a trailing slash do not matter.
   const p = String(path).toLowerCase().replace(/(.)\/+$/, "$1");
   const page = BY_PATH.get(p);

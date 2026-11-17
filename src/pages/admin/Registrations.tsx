@@ -7,6 +7,7 @@ import { adminFetch, isUnauthorized } from "@/lib/admin";
 import { intakeLabel } from "@/lib/school/lang";
 import { Seo } from "@/components/Seo";
 import { LiveSummary } from "@/components/admin/LiveSummary";
+import { SalesDashboard } from "@/components/admin/SalesDashboard";
 import { fmtCount, useLiveStats } from "@/components/admin/statsApi";
 
 type Row = {
@@ -94,6 +95,8 @@ export default function Registrations() {
     queryKey: ["admin", "registrations"],
     queryFn: async () => (await adminFetch<{ rows: Row[] }>("/api/admin/registrations")).rows,
     staleTime: 0,
+    refetchInterval: 60_000, // new sales appear without reloading the page
+    refetchOnWindowFocus: true,
   });
   // People on the site right now, student accounts and today's funnel (refreshed every 30 s, details in /admin/stats).
   const live = useLiveStats();
@@ -111,8 +114,6 @@ export default function Registrations() {
     });
   }, [rows, status, q]);
 
-  const paid = rows.filter((r) => r.status === "paid");
-  const revenue = paid.reduce((sum, r) => sum + (r.amount_paid_cents ?? 0), 0);
   const pending = rows.filter((r) => r.status === "pending_payment").length;
 
   const exportCsv = () => {
@@ -127,11 +128,11 @@ export default function Registrations() {
 
   return (
     <div className="max-w-7xl mx-auto p-4 sm:p-6 space-y-6">
-      <Seo title="Inscriptions | Reetma back office" description="Inscriptions à L'École" path="/admin/registrations" lang="fr" noindex />
+      <Seo title="Tableau de bord | Reetma back office" description="Ventes, trafic et inscriptions" path="/admin/registrations" lang="fr" noindex />
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold" style={{ color: "#1F3B36" }}>Inscriptions</h1>
-          <p className="text-sm" style={{ color: "#6B7672" }}>Étudiants inscrits à L'École, lus en direct depuis Mollie, les plus récents en premier.</p>
+          <h1 className="text-2xl sm:text-3xl font-bold" style={{ color: "#1F3B36" }}>Tableau de bord</h1>
+          <p className="text-sm" style={{ color: "#6B7672" }}>Ventes, chiffre d'affaires et trafic en direct, puis les inscriptions à L'École lues depuis Stripe, les plus récentes en premier.</p>
         </div>
         <div className="flex gap-2">
           <button
@@ -154,19 +155,18 @@ export default function Registrations() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-3">
+      <SalesDashboard sales={rows} live={live.data} loading={query.isLoading} />
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
         {[
-          { label: "En ligne maintenant", value: fmtCount(live.data?.online.total), to: "/admin/stats" },
           { label: "Comptes étudiants", value: fmtCount(live.data?.accounts.total), to: "/admin/stats" },
-          { label: "Inscriptions", value: rows.length.toLocaleString("fr-FR") },
-          { label: "Payées", value: paid.length.toLocaleString("fr-FR") },
+          { label: "Inscriptions (toutes)", value: rows.length.toLocaleString("fr-FR") },
           { label: "En attente de paiement", value: pending.toLocaleString("fr-FR") },
-          { label: "Chiffre d'affaires", value: fmtMoney(revenue, paid[0]?.currency ?? "eur") },
         ].map((k) => {
           const body = (
             <>
               <p className="text-xs uppercase tracking-wide" style={{ color: "#4B5B58" }}>{k.label}</p>
-              <p className="text-2xl font-bold mt-1 flex items-center justify-between gap-2" style={{ color: "#1F3B36" }}>
+              <p className="text-xl font-bold mt-1 flex items-center justify-between gap-2" style={{ color: "#1F3B36" }}>
                 {k.value}
                 {k.to && <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "#6B7672" }} aria-hidden="true" />}
               </p>
@@ -176,14 +176,14 @@ export default function Registrations() {
             <Link
               key={k.label}
               to={k.to}
-              className="flex flex-col justify-between rounded-lg border bg-white p-4 hover:bg-[#FBF7F0] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#305D55]"
+              className="flex flex-col justify-between rounded-lg border bg-white p-3 hover:bg-[#FBF7F0] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#305D55]"
               style={{ borderColor: "#ECE5D9" }}
             >
               {body}
               <span className="sr-only">Voir les statistiques</span>
             </Link>
           ) : (
-            <div key={k.label} className="flex flex-col justify-between rounded-lg border bg-white p-4" style={{ borderColor: "#ECE5D9" }}>
+            <div key={k.label} className="flex flex-col justify-between rounded-lg border bg-white p-3" style={{ borderColor: "#ECE5D9" }}>
               {body}
             </div>
           );
@@ -245,7 +245,7 @@ export default function Registrations() {
                     </button>
                   </>
                 ) : (
-                  "Impossible de lire les inscriptions depuis Mollie. Vérifiez MOLLIE_API_KEY sur Vercel, puis cliquez sur Actualiser."
+                  "Impossible de lire les inscriptions. Vérifiez STRIPE_SECRET_KEY sur le serveur, puis cliquez sur Actualiser."
                 )}
               </td></tr>
             )}

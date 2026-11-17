@@ -32,7 +32,7 @@ export function AIPlatform() {
                 <strong className="text-white font-medium">build</strong> the agents,{" "}
                 <strong className="text-white font-medium">deploy</strong> into your stack and{" "}
                 <strong className="text-white font-medium">measure</strong> again.
-                It is documented, reproducible and increasingly tooled, the same approach that took a five-person process down to one at Farmasoft.
+                It is documented, reproducible and increasingly tooled, the same approach that took a five-person process down to one for a client.
               </p>
             </ScrollReveal>
           </div>

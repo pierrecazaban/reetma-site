@@ -84,7 +84,7 @@ export default function SchoolTerms() {
           <Section title="Price and payment">
             <p>
               The registration fee is {schoolConfig.price.display}, all taxes included, paid once online
-              in euros through our payment provider, Mollie. It covers {schoolConfig.feeCovers} It is the only
+              in euros through our payment provider, Stripe. It covers {schoolConfig.feeCovers} It is the only
               amount students pay.
             </p>
           </Section>

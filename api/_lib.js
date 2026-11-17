@@ -1,6 +1,7 @@
 // Shared helpers for the Reetma serverless functions (Vercel).
 // Secrets come from Vercel environment variables, never from the browser:
-//   MOLLIE_API_KEY  (test_... while testing, live_... in production)
+//   STRIPE_SECRET_KEY  (sk_test_... while testing, sk_live_... in production): new payments, see api/_stripe.js
+//   MOLLIE_API_KEY  (optional since the switch to Stripe: reads the registrations paid on Mollie)
 //   MOLLIE_LEGACY_API_KEY  (optional: the previous Mollie account's key, read only, for the payments made there)
 //   ADMIN_EMAIL + ADMIN_PASSWORD  (the single /admin back-office account)
 import crypto from "node:crypto";
@@ -33,8 +34,13 @@ export const PATHS = {
 
 export const langOf = (v) => (v === "fr" ? "fr" : "en");
 
-/** "live" with the live Mollie key (production), "test" otherwise (previews). Separates data in the database. */
+/**
+ * "live" with the live payment key (production), "test" otherwise (previews). Separates data in the database.
+ * The Stripe key decides when it is set; the Mollie key otherwise (before the switch to Stripe).
+ */
 export function currentMode() {
+  const stripe = process.env.STRIPE_SECRET_KEY;
+  if (stripe) return /^(sk|rk)_live_/.test(stripe) ? "live" : "test";
   return (mollieKey() || "").startsWith("live_") ? "live" : "test";
 }
 

@@ -36,8 +36,8 @@ export function Methodology() {
           <ScrollReveal delay={350}>
             <p className="text-[15px] md:text-base leading-[1.85]" style={{ color: "#4B5B58" }}>
               Every engagement follows the same <strong style={{ color: "#1F3B36" }}>Reetma Process Intelligence</strong> cycle,
-              from first workshop to agents in production. It is how we took a five-person process down to one at
-              Farmasoft, and how we find the <strong style={{ color: "#1F3B36" }}>next process</strong> once the first one runs.
+              from first workshop to agents in production. It is how we took a five-person process down to one for a
+              client, and how we find the <strong style={{ color: "#1F3B36" }}>next process</strong> once the first one runs.
             </p>
           </ScrollReveal>
         </div>
